@@ -1,0 +1,617 @@
+@media (min-width: 1200px) and (max-width: 1850px){
+    .wrapper, .wrapper-top {
+        max-width: 1190px;
+    }
+
+    .hamburger-description article {
+        padding-right: 30px;
+    }
+
+   @media  (min-width: 1367px) {
+       .hamburger-list img {
+           -webkit-transform: translateY(-190px);
+           -moz-transform: translateY(-190px);
+           -ms-transform: translateY(-190px);
+           -o-transform: translateY(-190px);
+           transform: translateY(-190px);
+       }
+
+       .info-top {
+           padding: 15% 0;
+       }
+   }
+}
+
+@media (max-width: 1366px) {
+
+    footer {
+        height: 300px;
+    }
+    /*------BOOK A TABLE------*/
+    form {
+        max-width: 1000px;
+    }
+
+    .row-one {
+        max-width: 1000px;
+        margin-bottom: 20px;
+    }
+
+    .row-two {
+        max-width: 1000px;
+        margin-bottom: 20px;
+    }
+
+    .row-two input, button {
+        max-width: 484px;
+    }
+
+    .hour-number {
+        max-width: 485px;
+    }
+
+    .hour-number input:first-child {
+        margin-right: 15px;
+    }
+
+    .d-m-y {
+        max-width: 485px;
+    }
+
+    .d-m-y input:nth-child(2) {
+        margin: 0 15px;
+    }
+
+    textarea {
+        margin-bottom: 20px;
+    }
+}
+    /*-----------MENU PAGE----------*/
+
+@media (min-width: 768px) and (max-width: 1366px) {
+
+    /*-----------MEAL PAGE----------*/
+    .hamburger-list {
+        max-width: 1000px;
+        margin-top: 0;
+    }
+
+    .hamburger-list li {
+        height: 600px;
+    }
+
+    .hamburger-description li{
+        height: 160px;
+    }
+
+    .hamburger-list img {
+        -webkit-transform: translateY(-210px);
+        -moz-transform: translateY(-210px);
+        -ms-transform: translateY(-210px);
+        -o-transform: translateY(-210px);
+        transform: translateY(-210px);
+    }
+
+    .info-top {
+        padding: 50px 0;
+    }
+}
+    /*-----------MEAL PAGE----------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wrapper {
+        max-width: 970px;
+    }
+
+        /*-----------MAIN PAGE----------*/
+    a.button {
+        padding: 0 20px;
+        line-height: 40px;
+    }
+
+    .sliders-numb {
+        width: 160px;
+    }
+
+    .down-block {
+        margin-bottom: 2%;
+    }
+
+    .details {
+        padding: 80px 0;
+    }
+
+    .details-block {
+        padding: 30px 0;
+    }
+
+    .menu-list {
+        padding-bottom: 150px;
+    }
+
+    .menu-list li {
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    header {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .logo {
+        margin-top: 5px;
+    }
+
+    .nav-block ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-block ul li {
+        margin: 5px 0;
+    }
+
+    .sliders-numb li {
+        margin: 30px 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper {
+        max-width: 750px;
+    }
+
+    header {
+        flex-direction: row;
+    }
+        /*-----------MAIN PAGE----------*/
+    a.button {
+        padding: 0 20px;
+        line-height: 40px;
+    }
+
+    .sliders-numb {
+        width: 160px;
+    }
+
+    .nav-block {
+        margin-right: 0;
+    }
+
+    .nav-block ul {
+        flex-direction: row;
+    }
+
+    .nav-block ul li {
+        margin: 0 10px;
+    }
+
+    .down-block {
+        margin-bottom: 2%;
+    }
+
+    .hover-block h3 {
+        font-size: 2.0em;
+    }
+
+    .hover-block span {
+        font-size: 1.3em;
+    }
+
+    .dishes-gallery li:hover .smoothies span {
+        padding-bottom: 40px;
+    }
+
+    .details {
+        padding: 70px 0
+    }
+
+    .details-block li h2 {
+        font-size: 32px;
+    }
+
+    .details-block li span {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    a.preparation {
+        padding: 15px 22px;
+        font-size: 12px;
+    }
+
+    .head-gratia h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .reach-list li {
+        height: 200px;
+    }
+
+    li.fresh-products {
+        height: 275px;
+    }
+
+    .text-block {
+        padding: 10px;
+    }
+
+    .text-block h3 {
+        font-size: 15px
+    }
+
+    .text-block span {
+        font-size: 16px;
+    }
+
+    /*-----------MENU PAGE----------*/
+
+    .menu-list {
+        padding-bottom: 150px;
+    }
+
+    .menu-list li {
+        width: 47%;
+        height: 400px;
+    }
+
+    .menu-list li span {
+        padding: 0 5px;
+    }
+
+    /*-----------MEAL PAGE----------*/
+
+    .hamburger-list {
+        margin-bottom: 100px;
+    }
+
+    .hamburger-list img {
+        -webkit-transform: translateY(-40px);
+        -moz-transform: translateY(-40px);
+        -ms-transform: translateY(-40px);
+        -o-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+
+    .hamburger-info h3 {
+        font-size: 32px;
+    }
+
+    .hamburger-info span {
+        font-size: 22px;
+    }
+
+    .components {
+        font-size: 20px;
+    }
+
+    .hamburger-description article {
+        font-size: 13px;
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 767px) {
+
+    .dishes-gallery li {
+        width: 30%;
+    }
+
+    /*-----------MENU PAGE----------*/
+    .menu-list {
+        flex-direction: column;
+    }
+
+    .menu-list li {
+        width: 80%;
+        padding-bottom: 10px;
+    }
+
+    .menu-img-container {
+        margin-bottom: 20px;
+    }
+
+    /*-----------MEAL PAGE----------*/
+   .hamburger-list {
+       width: 600px;
+       margin-bottom: 100px;
+   }
+
+    .hamburger-list li {
+        height: 500px;
+    }
+
+    .hamburger-list img {
+        -webkit-transform: translateY(-25px);
+        -moz-transform: translateY(-25px);
+        -ms-transform: translateY(-25px);
+        -o-transform: translateY(-25px);
+        transform: translateY(-25px);
+    }
+
+    .hamburger-info h3 {
+        font-size: 30px;
+    }
+
+    .hamburger-info span {
+        font-size: 18px;
+    }
+
+    div.info-top {
+        padding: 50px 0;
+    }
+
+    .hamburger-description li {
+        height: 100px;
+    }
+
+    .components {
+        font-size: 18px;
+    }
+
+    .hamburger-description li article {
+        font-size: 12px;
+    }
+
+    .coast {
+        height: 200px;
+    }
+}
+
+@media (max-width: 630px) {
+
+    .dishes-gallery {
+        flex-direction: column;
+    }
+
+    .dishes-gallery li {
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .hover-block h3 {
+        font-size: 20px;
+    }
+
+    .hover-block span {
+        font-size: 16px;
+    }
+
+    /*-----------MENU PAGE----------*/
+    .menu-list {
+        flex-direction: column;
+    }
+
+    .menu-list li {
+        width: 300px;
+        padding-bottom: 10px;
+    }
+
+    .menu-img-container {
+        height: 50%;
+        margin-bottom: 15px;
+    }
+
+    /*-----------MEAL PAGE----------*/
+
+    .hamburger-list {
+        flex-direction: column;
+        width: 300px;
+        margin-bottom: 100px;
+    }
+
+    .hamburger-list img {
+        -webkit-transform: translateY(-240px);
+        -moz-transform: translateY(-240px);
+        -ms-transform: translateY(-240px);
+        -o-transform: translateY(-240px);
+        transform: translateY(-240px);
+    }
+
+    li.hamburger-img {
+        height: 300px;
+    }
+
+    .hamburger-info h3 {
+        font-size: 25px;
+    }
+
+    .info-top {
+        padding: 20px 0;
+    }
+
+    .hamburger-info span {
+        font-size: 19px;
+    }
+
+    .hamburger-description {
+        flex-direction: column;
+    }
+
+    .hamburger-description li {
+        height: 70px;
+    }
+
+    .hamburger-description article {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .coast {
+        height: auto;
+    }
+
+    li.hamburger-info {
+        height: 430px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        max-width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .perfection, .reach, .content-section {
+        padding-top: 20px;
+    }
+
+    /*-----------MAIN PAGE----------*/
+
+    .slick-prev:before, .slick-next:before {
+        display: none;
+    }
+
+    .hover-block span {
+        font-size: 16px;
+    }
+
+    .down-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sliders-numb {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .arrow {
+        font-size: 16px;
+        order: 1;
+    }
+
+    a.button {
+        margin-bottom: 20px;
+        line-height: 40px;
+        font-size: 13px;
+    }
+
+    .head-gratia {
+        margin-bottom: 30px;
+        padding: 15px 0;
+        background-size: contain;
+    }
+
+    .head-gratia h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .head-gratia span {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    a.check {
+        margin: 30px auto;
+        width: 200px;
+        line-height: 47px;
+        font-size: 13px;
+        border: 1px solid #dcdddf;
+    }
+
+    .details {
+        padding: 20px 0;
+    }
+
+    .details-block li h2 {
+        font-size: 35px;
+    }
+
+    .details-block li span {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    a.preparation {
+        padding: 13px 5px;
+        line-height: 0;
+        font-size: 12px;
+    }
+
+    .reach-list {
+        flex-direction: column;
+        padding-bottom: 120px;
+    }
+
+    .reach-list li {
+        width: 90%;
+        height: 230px;
+    }
+
+    /*-----------BOOK A TABLE----------*/
+
+    form {
+        font-size: 10px;
+        max-width: 500px;
+        margin: 30px auto 100px auto;
+    }
+
+    .row-two input, button {
+        max-width: 500px;
+        margin-bottom: 10px;
+    }
+
+    .row-one{
+        max-width: 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .d-m-y {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .row-one{
+        margin-bottom: 10px;
+    }
+
+    .row-two {
+        margin-bottom: 0;
+    }
+
+    .hour-number {
+        max-width: 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .row-two {
+        max-width: 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
